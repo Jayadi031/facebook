@@ -111,7 +111,7 @@ sleep(2)
 tampil('''\rbExample : \rkHaxID\rp@yahoo.com''')
 email = input('\r\033[32;1m[\33[31;1m*\33[32;1m]\33[36;1mMasukkan \33[31;1mEmail/Id \33[36;1mTarget : \33[32;1m ')
 sleep(1)
-sandi = input('\r\033[32;1m[\33[31;1m*\33[32;1m]\33[36;1mMasukkan Whordlist \33[31;1m(sandi.txt) \33[36;1m: \33[32;1m ')
+sandi = input('\r\033[32;1m[\33[31;1m*\33[32;1m]\33[36;1mMasukkan Whordlist \33[31;1m(123.txt) \33[36;1m: \33[32;1m ')
 passw = open(sandi, 'r')
 tampil('''\rmCracking Password''')
 def br():
